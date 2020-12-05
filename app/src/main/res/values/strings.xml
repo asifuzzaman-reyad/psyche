@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Psyche</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="psychology">Psychology</string>
+    <string name="university_of_chittagong">university of chittagong</string>
+    <string name="title_activity_student_main">StudentMain</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_teacher_main">TeacherMain</string>
+    <string name="session_2018_2019">Session: 2018-2019</string>
+    <string name="all_course">All Course</string>
+    <string name="psy_201">PSY-201</string>
+    <string name="psy_202">PSY-202</string>
+    <string name="psy_203">PSY-203</string>
+    <string name="psy_204">PSY-204</string>
+    <string name="psy_205">PSY-205</string>
+    <string name="psy_206">PSY-206</string>
+    <string name="computer_application">Computer Application</string>
+    <string name="psychological_statistic_ii">Psychological Statistic ii</string>
+    <string name="cultural_anthropology">Cultural Anthropology</string>
+    <string name="behavioral_neuroscience">Behavioral Neuroscience</string>
+    <string name="educational_psychology">Educational Psychology</string>
+    <string name="developmental_psychology">Developmental Psychology</string>
+    <string name="already_have_an_account">Already Have an Account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="student_id">Student Id</string>
+    <string name="user_token">User Token (Collect form CR)</string>
+    <string name="batch">Batch</string>
+    <string name="as_student">As Student</string>
+    <string name="as_teacher">As Teacher</string>
+    <string name="new_user_register">New User ! Create an Account</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+
+    //
+    <string name="onBoardingTitle1">onBoardingTitle1</string>
+    <string name="onBoardingTitle2">onBoardingTitle2</string>
+    <string name="onBoardingTitle3">onBoardingTitle3</string>
+    //
+    <string name="onBoardingDes1">onBoardingDes1</string>
+    <string name="onBoardingDes2">onBoardingDes2</string>
+    <string name="onBoardingDes3">onBoardingDes3</string>
+    <string name="login">Login</string>
+    <string name="year">Year</string>
+    <string name="student_hall">Hall Name</string>
+    <string name="mobile_no">Mobile No</string>
+</resources>

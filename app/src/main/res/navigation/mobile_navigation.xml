@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.psychotechbd.psyche.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_batchLoged"
+            app:destination="@id/batchLogin" />
+        <action
+            android:id="@+id/action_navigation_home_to_teacherMain"
+            app:destination="@id/teacherMain2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_study"
+        android:name="com.psychotechbd.psyche.ui.study.course.Study"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_studies" >
+        <action
+            android:id="@+id/action_navigation_study_to_studyMain"
+            app:destination="@id/studyMain" />
+        <action
+            android:id="@+id/action_navigation_study_to_courseList"
+            app:destination="@id/courseList" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/batchLogin"
+        android:name="com.psychotechbd.psyche.ui.home.student.fragment.BatchLoggedIn"
+        android:label="fragment_batch_loged"
+        tools:layout="@layout/fragment_batch_login" >
+        <action
+            android:id="@+id/action_batchLoged_to_studentMain"
+            app:destination="@id/studentMain" />
+    </fragment>
+
+    <activity
+        android:id="@+id/studentMain"
+        android:name="com.psychotechbd.psyche.ui.home.student.ui.data.StudentMain"
+        android:label="activity_student_main"
+        tools:layout="@layout/activity_student_main" />
+
+    <fragment
+        android:id="@+id/teacherMain2"
+        android:name="com.psychotechbd.psyche.ui.home.teacher.data.TeacherMain"
+        android:label="fragment_teacher_main2"
+        tools:layout="@layout/fragment_teacher_main" >
+        <action
+            android:id="@+id/action_teacherMain2_to_teacherDetails"
+            app:destination="@id/teacherDetails" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/teacherDetails"
+        android:name="com.psychotechbd.psyche.ui.home.teacher.fragment.TeacherDetails"
+        android:label="fragment_teacher_details"
+        tools:layout="@layout/fragment_teacher_details" />
+
+    <fragment
+        android:id="@+id/studyMain"
+        android:name="com.psychotechbd.psyche.ui.study.StudyAll"
+        android:label="fragment_study_main"
+        tools:layout="@layout/fragment_study_main" />
+
+    <fragment
+        android:id="@+id/courseList"
+        android:name="com.psychotechbd.psyche.ui.study.course.CourseList"
+        android:label="fragment_course_list"
+        tools:layout="@layout/fragment_course_list" >
+        <action
+            android:id="@+id/action_courseList_to_courseDetails"
+            app:destination="@id/courseDetails" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/courseDetails"
+        android:name="com.psychotechbd.psyche.ui.study.course.CourseDetails"
+        android:label="fragment_course_details"
+        tools:layout="@layout/fragment_course_details" />
+
+</navigation>
